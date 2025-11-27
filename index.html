@@ -1,0 +1,147 @@
+<html>
+    <head></head>
+        <body>
+            <img src="images/logo.jpg"alt="logo">
+            <h1>Main Heading</h1>
+            <h2 style="color:rgb(78, 78, 78)";>Sub Heading</h2>
+            <p style="color:rgb(78, 78, 78)";>This page includes all the required elements: headings, paragraphs, a styled table, and a full HTML form with all input types and attributes.</p>
+            <p style="color:rgb(78, 78, 78)";>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer vitae lorem et lectus posuere aliquam. Cras imperdiet, ipsum at commodo egestas, metus urna malesuada velit, ac facilisis nisi nisi ut sapien.</p>
+            <a href="https://www.google.com/ " target="_blank">Visit Google</a>
+            <br/>
+            <br/>
+            <br/>
+            <h3  style="color:rgb(78, 78, 78)";>Simple Student Table</h3>
+            <table width="700" border="1">
+                <thead  style="background-color:rgb(190, 190, 190)";>
+                    <tr>
+                      <th>name</th>
+                      <th>age</th>
+                      <th>city</th>
+                      </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>ali</td>
+                        <td>22</td>
+                        <td>cairo</td>
+                    </tr>
+                    <tr>
+                        <td>mona</td>
+                        <td>20</td>
+                        <td>alex</td>
+                    </tr>
+                    <tr>
+                        <td>sayed</td>
+                        <td>25</td>
+                        <td>giza</td>
+                    </tr>
+                </tbody>
+            </table>
+            <br/>
+            <br/>
+            <br/>
+            <h3  style="color:rgb(78, 78, 78)";>Fill Form Task</h3>
+            <form>
+                <lable for="fname">Name:</lable>
+                <input id="fname" type="text" placeholder="enter your name" required/>
+                <br/>
+                <br/>
+                <lable for="username">Username::</lable>
+                <input id="username" type="text" placeholder="Your username" required/>
+                <br/>
+                <br/>
+                <lable for="email">Email:</lable>
+                <input id="email" type="email" placeholder="example@mail.com" required/>
+                <br/>
+                <br/>
+                <lable for="password">Password:</lable>
+                <input id="password" type="password" required/>
+                <br/>
+                <br/>
+                <lable for="country">Country:</lable>
+                <input id="country" value="egypt" required/>
+                <br/>
+                <br/>
+                <lable for="age">age:</lable>
+                <input type="number" id="age" value="18"/>
+                <br/>
+                <br/>
+                <lable for="birthday">Birthday:</lable>
+                <input id="birthday" type="date"/>
+                <br/>
+                <br/>
+                <lable for="file">Choose a file:</lable>
+                <input type="file" id="file"/>
+                <br/>
+                <br/>
+                <label>Choose your city</label>
+                <select name="city" id="myciry" style="color: blue;">
+                    <option value="1" style="color: blue;">Cairo</option>
+                    <option value="2" style="color: blue;">Alex</option>
+                    <option value="3" style="color: blue;">Giza</option>
+                </select>
+                <br/>
+                <br/>
+                <label>Favorite fruit</label>
+                <input type="search" list="mylist">
+                <datalist id="mylist">
+                    <option>apple</option>
+                    <option>banana</option>
+                    <option>orange</option>
+                </datalist>
+                <br/>
+                <br/>
+                <label>Gender:</label>
+                <br/>
+                <br/>
+                <input type="radio" id="m" name="gender">
+                <label for="m">Male</label>
+                <br/>
+                <br/>
+                <input type="radio" id="m" name="gender">
+                <label for="f">Female</label>
+                <br/>
+                <br/>
+                <br/>
+                <label>Skills:</label>
+                <br/>
+                <br/>
+                <input type="checkbox" >
+                <label>HTML</label>
+                <br/>
+                <br/>
+                <input type="checkbox">
+                <label>CSS</label>
+                <br/>
+                <br/>
+                <input type="checkbox">
+                <label>JavaScript</label>
+                <br/>
+                <br/>
+                <br/>
+                <lable for="disIn">Disabled Input:</lable>
+                <input id="DisIn" type="text" value="You can't edit this" disabled>
+                <br/>
+                <br/>
+                <lable for="readon">Read only Input:</lable>
+                <input id="readon" type="text" value="Read only here" readonly>
+                <br/>
+                <br/>
+                <label>Message: </label>
+                <br/>
+                <br/>
+                <textarea>Write somthing...</textarea>
+                <br/>
+                <br/>
+                <br/>
+                <button type="submit" style="color:aliceblue;background-color:green";>Submit</button>
+                <br/>
+                <br/>
+
+                
+                
+
+            </form>
+
+        </body>
+</html>
